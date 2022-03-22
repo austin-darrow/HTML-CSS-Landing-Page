@@ -45,6 +45,67 @@ body {
 }
 
 .landscape {
-    width: 500px;
+    width: 400px;
     height: 250px;
+}
+
+.content-1 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+    margin-bottom: 75px;
+}
+
+.content-1-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-icon {
+    border: 4px solid #3882F6;
+    width: 100px;
+    height: 100px;
+}
+
+.icon-columns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    max-width: 125px;
+    text-align: center;
+}
+
+.subtext2 {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    padding: 100px;
+    gap: 16px;
+}
+
+.quote-credit {
+    font-weight: 700;
+    align-self: flex-end;
+    font-size: 26px;
 }
